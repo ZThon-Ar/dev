@@ -38,9 +38,12 @@
       "required": false
     }
   },
-  "addons": {
-    "plan": "heroku-postgresql:essential-0"
-  },
+  "addons": [{
+    "plan": "heroku-postgresql:essential-0",
+    "options": {
+      "version": "15"
+    }
+  }],
   "buildpacks": [
     {
       "url": "https://github.com/Zilzalll/heroku-buildpack-ffmpeg-latest"
