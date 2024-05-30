@@ -41,7 +41,7 @@
   "addons": [{
     "plan": "heroku-postgresql:essential-0",
     "options": {
-      "version": "15"
+      "version": "14"
     }
   }],
   "buildpacks": [
