@@ -39,9 +39,9 @@
     }
   },
   "addons": [{
-    "plan": "heroku-postgresql:essential-2",
+    "plan": "heroku-postgresql:essential-0",
     "options": {
-      "version": "15"
+      "version": "16"
     }
   }],
   "buildpacks": [
