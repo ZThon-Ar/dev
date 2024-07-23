@@ -1,0 +1,77 @@
+{
+  "name": "Source ZThon",
+  "description": "〔 سـورس زدثــون 𝗭𝗧𝗵𝗼𝗻 〕افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › فـارات تلقـائيـه بسهولـه〔 حصريـاً 〕- مطـور السـورس : زلـزال ",
+  "logo": "https://i.ibb.co/sv7XrcH/Zilzalll.jpg",
+  "keywords": ["plugin", "modular", "productivity"],
+  "repository": "https://github.com/ZThon-Ar/dev/",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "APP_ID": {
+      "description": "كـود ايبي ايـدي〔 App id 〕لا تغيرهـا",
+      "value": "27455984"
+    },
+    "API_HASH": {
+      "description": "كـود ايبي هـاش〔 Api hash 〕..لا تغيرهـا",
+      "value": "62d5f68ce2e9189636967120220f5755"
+    },
+    "ENV": {
+      "description": "اتـركهـا كمـا هـي .. لا تغيرهـا",
+      "value": "ANYTHING"
+    },
+    "STRING_SESSION": {
+      "description": "كـــود تيـــرمكـــس - الكـود الكبيـر مـن بـوت تيرمكــس",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "تـــوكـــن البـــوت - من بـوت فـاذر〔 @Botfather 〕..",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "كـــود مفتـــاح هيروكـــو - تروح ع الرابـط » https://dashboard.heroku.com/account  ع آخـر خانـه وتنسـخ الكـود لهنـا",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش صغيـره",
+      "value": "",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql:essential-0",
+    "options": {
+      "version": "14"
+    }
+  }],
+  "buildpacks": [
+    {
+      "url": "https://github.com/Zilzalll/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+    },
+    {
+      "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+    },
+    {
+      "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+    },
+    {
+      "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "stack": "heroku-22"
+}
