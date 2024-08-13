@@ -3,7 +3,7 @@
   "description": "〔 سـورس زدثــون 𝗭𝗧𝗵𝗼𝗻 〕افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › فـارات تلقـائيـه بسهولـه〔 حصريـاً 〕- مطـور السـورس : زلـزال ",
   "logo": "https://i.ibb.co/sv7XrcH/Zilzalll.jpg",
   "keywords": ["plugin", "modular", "productivity"],
-  "repository": "https://github.com/ZThon-Ar/dev/",
+  "repository": "https://github.com/ZThon-Ar/dev#ZeZo",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -39,7 +39,7 @@
     }
   },
   "addons": [{
-    "plan": "heroku-postgresql:essential-1",
+    "plan": "heroku-postgresql:essential-0",
     "options": {
       "version": "15"
     }
